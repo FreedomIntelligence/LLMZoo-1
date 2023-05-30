@@ -233,7 +233,7 @@ BUILD_CUDA_EXT=0 pip install auto-gptq[triton]
 ```
 
 For `Chimera`, we can not share the int4 version parameters due to restrictions. And you can follow the example in our patched [AutoGPTQ](https://github.com/GeneZC/AutoGPTQ-triton/tree/main/examples) to conduct quantization by yourselves.
-
+At the same time, `Chimera` and `Phoenix` are based on llama and bloomz, you can also utilize the solutions of llama and bloomz. For specific quantification methods, you can refer to [this link](https://github.com/wtxfrancise/quantize_models).
 
 ## 🏭 Deployment
 
